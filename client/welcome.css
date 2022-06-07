@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+#welcome {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#welcome header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    background: #9c312d;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(228, 0, 0, 0.3);
+}
+
+header p a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+#welcome header p {
+    margin: 0 30px 0 10px;
+}
+
+#welcome img {
+    width: 300px;
+    height: 300px;
+    margin-left: 120px;
+    margin-top: 150px;
+}
+
+#welcome .maincontent {
+    display: flex;
+    flex: row;
+    flex-grow: 1;
+}
+
+#welcome .title {
+    /*  margin-left: 50px; */
+    margin-top: 200px;
+    width: 50%;
+}
+
+.title h1 {
+    font-size: 40px;
+}
+
+.title p {
+    font-size: 20px;
+}
+
+#welcome .component {
+    width: 50%;
+}
+
+#welcome footer {
+    display: flex;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}

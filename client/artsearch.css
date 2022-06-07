@@ -1,0 +1,11 @@
+#artsearch .resultsbox {
+    position: absolute;
+    max-height: 600px;
+    overflow: scroll;
+}
+
+input {
+    width: 200px;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+}

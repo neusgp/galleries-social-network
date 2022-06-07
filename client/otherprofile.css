@@ -1,0 +1,63 @@
+#otherprofile {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.36);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.mainInfo {
+    display: flex;
+}
+
+#otherprofile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 180px;
+}
+
+.profileinfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#otherprofile .bio {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.2px);
+    -webkit-backdrop-filter: blur(9.2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 600px;
+}
+
+#otherprofile .bio p {
+    margin: 0;
+}
+
+#otherprofile button {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #1e6989;
+    margin-top: 20px;
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    background: rgba(255, 255, 255 /* , 0.83 */);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    /* backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); */
+    border: 6px solid #63b9de;
+}

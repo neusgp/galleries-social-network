@@ -1,0 +1,22 @@
+#deleteIdButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+.deleteAccount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    margin: 20px 0 10px 0;
+    color: white;
+    border: none;
+    background-color: #9c312d;
+    font-family: "Montserrat", sans-serif;
+}

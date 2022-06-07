@@ -1,0 +1,40 @@
+#bioeditor {
+    display: flex;
+    flex-direction: column;
+}
+
+#bioeditor .bio {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.2px);
+    -webkit-backdrop-filter: blur(9.2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 600px;
+}
+
+#bioeditor .bio p {
+    margin: 0;
+}
+
+#bioeditor textarea {
+    font-family: "Montserrat", sans-serif;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 600px;
+    min-height: 100px;
+    padding: 20px;
+    border: 1px solid rgba(228, 0, 0, 0.3);
+}
+
+#bioeditor button {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    align-self: flex-end;
+}
+
+.savebutton {
+    margin-right: 20px;
+}

@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-position: top;
+    /*  background-color: rgb(255, 172, 72); */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    font-family: "Montserrat", sans-serif;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#app header {
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #9c312d;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(228, 0, 0, 0.3);
+}
+
+#app header .logo {
+    width: 76px;
+    border-radius: 76px;
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    /* margin-left: px; */
+}
+
+nav p {
+    margin-right: 50px;
+}
+
+.userindicator {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.userindicator p {
+    margin-right: 20px;
+    color: white;
+}
+.userindicator img {
+    width: 70px;
+
+    border-radius: 50px;
+}
+.userindicator i {
+    margin: 0 20px 0 20px;
+    font-size: 20px;
+    color: white;
+}
+
+#app .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+#app footer {
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+
+#profile {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.78);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 50px;
+    margin-top: 150px;
+}
+
+#profile .mainInfo {
+    display: flex;
+}
+
+#profile img {
+    width: 180px;
+    height: 180px;
+    border-radius: 180px;
+}
+
+.profileinfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#profile h3 {
+    margin-left: 10px;
+}
+
+#picturemodal {
+    background: rgba(255, 255, 255, 0.91);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    position: absolute;
+    margin-top: 200px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+#picturemodal button {
+    border: none;
+}
+
+.close {
+    width: 30px;
+    height: 30px;
+    align-self: flex-end;
+    background-color: tomato;
+    color: white;
+}
+
+#picturemodal input {
+    margin-top: 20px;
+}
+
+ArtSearch {
+    position: absolute;
+    top: 300px;
+}
+
+/* .gallery {
+    display: flex;
+    flex-direction: column;
+}
+ */

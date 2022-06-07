@@ -1,0 +1,77 @@
+#findusers {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+.separador {
+    background-color: black;
+    width: 600px;
+    height: 1px;
+}
+
+#searchusers input {
+    margin-top: 30px;
+    width: 400px;
+    height: 40px;
+    border: 1px solid rgba(228, 0, 0, 0.3);
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+.result {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    background-color: white;
+}
+
+.result a {
+    text-decoration: none;
+    color: black;
+}
+
+.result p {
+    margin: 0;
+    text-decoration: none;
+}
+
+/* .result link {
+    display: flex;
+    width: 800px;
+}
+ */
+.result img {
+    width: 80px;
+    margin-right: 10px;
+}
+
+#recentusers {
+    margin-left: 100px;
+}
+
+#recentusers img {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.user {
+    background: rgba(255, 255, 255, 0.66);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    display: flex;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.user p {
+    font-size: 20px;
+    margin-left: 20px;
+    align-self: flex-start;
+}
